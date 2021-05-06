@@ -53,6 +53,8 @@ name = "bogosort"
 version = "0.1.0"
 dependencies = [
  "handlebars",
+ "serde",
+ "serde_json",
  "tokio",
  "warp",
 ]

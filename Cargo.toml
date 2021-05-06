@@ -10,3 +10,5 @@ edition = "2018"
 tokio = { version = "1", features = ["full"] }
 warp = "0.3"
 handlebars = "3.5.5"
+serde_json = "1.0"
+serde = "1.0.125"
