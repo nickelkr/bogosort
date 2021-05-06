@@ -23,9 +23,7 @@ where
 #[tokio::main]
 async fn main() {
     let mut hb = Handlebars::new();
-    let template = "Bogosort home @ {{value}}";
-
-    hb.register_template_string("index.html", template)
+    hb.register_template_file("index.html", "templates/index.html")
         .unwrap();
 
     let hb = Arc::new(hb);
